@@ -27,12 +27,22 @@ The data collection process involves several functions:
 
 ## How to Run
 
+### Run on colab
+
+   1. Open the "GithubAPI_datascraper.ipynb"(https://colab.research.google.com) in Google Colab. Replace `<Colab-Notebook-URL>` with the actual link to your notebook.
+   2. Replace with your personal GitHub API token in the notebook to authenticate your requests.
+   3. Run each cell to scrape the data and save the outputs (`users.csv` and `repositories.csv`) to your Google Drive or download them directly.
+
+### Run locally
+
 1. **Install Dependencies:** Ensure you have `pandas` and `requests` installed.
    ```bash
    pip install pandas requests
    ```
 
 2. **Run the Script:** Execute the main script, which fetches data and saves it to `users.csv` and `repositories.csv`.
+   Make sure to Replace "GITHUB TOKEN" with your personal taken
+
    ```bash
    python github_scraper.py
    ```
