@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-This project involved scraping GitHub data using the GitHub API, focusing on users in Chennai with more than 50 followers. The data collected comtains details on user profiles and up to 500 of their public repositories. The data was saved into `users.csv` and `repositories.csv`, maintaining the original API format as required.
+This project involved scraping GitHub data using the GitHub API, focusing on users in Chennai with more than 50 followers.It contains details on user profiles and up to 500 of their public repositories. The data was saved into `users.csv` and `repositories.csv`, maintaining the original API format as required.
 
 ## Files Included
 
