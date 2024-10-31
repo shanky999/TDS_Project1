@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-This project involved scraping GitHub data using the GitHub API, focusing on users in Chennai with more than 50 followers. We collected details on user profiles and up to 500 of their public repositories. The data was saved into `users.csv` and `repositories.csv`, maintaining the original API format as required.
+This project involved scraping GitHub data using the GitHub API, focusing on users in Chennai with more than 50 followers. The data collected comtains details on user profiles and up to 500 of their public repositories. The data was saved into `users.csv` and `repositories.csv`, maintaining the original API format as required.
 
 ## Files Included
 
@@ -29,7 +29,7 @@ The data collection process involves several functions:
 
 ### Run on colab
 
-   1. Open the "GithubAPI_datascraper.ipynb"(https://colab.research.google.com) in Google Colab. Replace `<Colab-Notebook-URL>` with the actual link to your notebook.
+   1. Open the "GithubAPI_datascraper.ipynb"(https://colab.research.google.com) in Google Colab. 
    2. Replace with your personal GitHub API token in the notebook to authenticate your requests.
    3. Run each cell to scrape the data and save the outputs (`users.csv` and `repositories.csv`) to your Google Drive or download them directly.
 
